@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James Guday Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="text-[#4db8ff] min-h-screen px-4 py-6 space-y-12 flex flex-col items-center">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 w-full max-w-6xl mx-auto px-4 py-4 glass flex items-center justify-between rounded-lg">
+    <div class="flex items-center space-x-3">
+      <img src="logo.jpg" alt="Logo" class="w-10 h-10 rounded-full border border-[#4db8ff]" />
+      <span class="text-lg font-bold text-white">James Guday</span>
+    </div>
+    <button id="menu-btn" class="md:hidden text-white text-2xl">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div id="menu" class="hidden md:flex space-x-6 text-sm font-semibold">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#achievements" class="hover:underline">Achievement</a>
+      <a href="#projects" class="hover:underline">Project</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="home" class="glass rounded-xl p-6 max-w-4xl w-full flex flex-col md:flex-row gap-6 items-center">
+    <img src="me.jpg" alt="Me" class="rounded-lg border border-[#4db8ff] w-40 h-40 object-cover shadow-lg" />
+    <div class="text-white">
+      <p class="font-semibold text-lg">Hi, Welcome to my portfolio</p>
+      <p class="mt-2 text-sm leading-relaxed">
+        I'm James Guday, a passionate web developer creating responsive and innovative web experiences. I love building efficient, visually engaging websites using both front-end and back-end tools.
+      </p>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="glass rounded-xl p-6 max-w-6xl w-full text-white">
+    <p class="text-center font-semibold text-xl mb-4">My proudest achievements</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="space-y-2">
+        <img src="man.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">Freelance Projects</p>
+      </div>
+      <div class="space-y-2">
+        <img src="https://storage.googleapis.com/a1aa/image/5add5a7c-9e87-4aed-d7c8-583129165019.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">Certifications</p>
+      </div>
+      <div class="space-y-2">
+        <img src="skills.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">Skills & Technologies</p>
+      </div>
+      <div class="space-y-2">
+        <img src="https://storage.googleapis.com/a1aa/image/f47d7924-84fb-43c7-7a32-3f1f7bd1ebef.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">Personal Website</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="glass rounded-xl p-6 max-w-6xl w-full text-white">
+    <p class="text-center font-semibold text-xl mb-4">My Projects</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="space-y-2">
+        <img src="https://storage.googleapis.com/a1aa/image/1b826baa-8cbf-4e35-59b2-1836370548ca.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">Music Player</p>
+      </div>
+      <div class="space-y-2">
+        <img src="resume.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">Resume Builder</p>
+      </div>
+      <div class="space-y-2">
+        <img src="todo.jpg" class="w-full rounded-md border border-[#4db8ff]" />
+        <p class="text-center font-medium">To-Do List</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="glass rounded-xl p-6 max-w-4xl w-full text-white text-center space-y-6">
+    <p class="font-semibold text-xl">Contact me</p>
+    <div class="flex flex-wrap justify-center gap-6">
+      <a href="mailto:Jamessalinas@pcb.edu.ph" class="flex items-center gap-2 hover:underline">
+        <i class="fas fa-envelope bg-black text-white rounded-full p-3"></i> Jamessalinas@pcb.edu.ph
+      </a>
+      <a href="https://www.pinterest.com/jamessalinas0528/" class="flex items-center gap-2 hover:underline">
+        <i class="fab fa-pinterest-p bg-red-600 text-white rounded-full p-3"></i> @James Guday
+      </a>
+      <a href="https://github.com/Jam0306" class="flex items-center gap-2 hover:underline">
+        <i class="fab fa-github bg-gray-800 text-white rounded-full p-3"></i> @jam0306
+      </a>
+      <a href="https://x.com/heckerr26" class="flex items-center gap-2 hover:underline">
+        <i class="fab fa-twitter bg-blue-500 text-white rounded-full p-3"></i> @heckerr
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="glass rounded-xl p-4 max-w-6xl w-full text-white text-center mt-12">
+    <p class="text-sm">&copy; 2025 James Guday. All rights reserved.</p>
+    <div class="mt-2 space-x-4 text-lg">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#achievements" class="hover:underline">Achievement</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

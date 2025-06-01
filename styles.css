@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url('background4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+}
+
+.glass {
+  background: rgba(11, 22, 38, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(77, 184, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
